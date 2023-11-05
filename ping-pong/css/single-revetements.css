@@ -1,0 +1,124 @@
+.entry-title-revetements{
+    min-height: 100px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(97, 176, 183, 0.274);
+    box-shadow: 10px 10px 10px rgb(118, 117, 117);
+    border-radius: 20px;
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+}
+
+.content-revetements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textAndImg-revetements {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.txt-revetements {
+    margin: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgba(97, 176, 183, 0.299);
+    padding: 2%;
+    border-radius: 20px;
+    width: 50%;
+}
+
+
+.textAndImg-revetements img {
+    height: 25em;
+    width: auto;
+    border-radius: 20px;
+}
+
+.specificite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.specificite h2 {
+    font-size: 30px;
+}
+
+.specificite>div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.specificite>div p {
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 10%;
+    border-radius: 20px;
+    width: 50%;
+    text-align: center;
+    line-height: 200%;
+}
+.specificite .epaisseur{
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 10%;
+    border-radius: 20px;
+    width: 80%;
+    text-align: center;
+    line-height: 200%;
+}
+
+
+.specificite>div p:hover {
+    background-color: rgba(97, 176, 183, 0.274);
+}
+
+
+@media screen and (max-width : 800px){
+    .entry-title-revetements{
+        width: 80%;
+    }
+
+    .textAndImg-revetements{
+        display: flex;
+        flex-direction: column;
+    }
+    .txt-revetements {
+        width: 90%;
+    }
+    
+    .specificite h2{
+        font-size: 24px;
+    }
+    
+    .specificite>div {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        width: 60%; 
+        margin: 10px 0; 
+    }
+    
+    .specificite>div p {
+        padding: 5%; 
+        width: 80%; 
+        text-align: center;
+        border-radius: 20px;
+    }
+}

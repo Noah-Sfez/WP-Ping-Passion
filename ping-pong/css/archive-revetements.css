@@ -1,0 +1,74 @@
+.page-header-revetements>h1{
+    background-color: rgba(97, 176, 183, 0.671);
+    box-shadow: 10px 10px 10px rgb(118, 117, 117);
+    min-height: 100px;
+    color: white;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 36px;
+    line-height: 1;
+}
+
+
+.grid-revetements{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    gap: 40px;
+    max-width: 1280px;
+    justify-content: center;
+    margin: 80px auto;
+}
+.revetements-card {
+    display: flex;
+    align-items: center;
+    border: 2px solid grey;
+}
+
+.revetements-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.revetements-card_content {
+    padding: 20px;
+}
+
+.revetements-card_content a {
+    display: block;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgba(97, 176, 183, 0.671);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 8px;
+}
+
+.revetements-card_content a:hover{
+    color: white;
+    background-color: rgba(41, 111, 117, 0.671);
+}
+
+.revetements-card_content a:visited{
+    color: white;
+}
+
+@media screen and (max-width: 800px){
+    .page-header-revetements>h1 {
+        width: 70%;
+    }
+    .revetements-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .revetements-card_content a{
+        margin-left: 25%;
+    }
+}
